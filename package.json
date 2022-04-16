@@ -1,7 +1,9 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "dev": "npx hardhat --network ganache test"
+    "dev": "hardhat node --network hardhat",
+    "console": "hardhat console",
+    "test": "hardhat --network ganache test"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
